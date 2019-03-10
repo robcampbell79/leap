@@ -1,6 +1,6 @@
 pub fn is_leap_year(year: u64) -> bool {
 
-    let mut is_leap = false;
+    let is_leap;
 
     if year % 4 == 0 {
         if year % 100 == 0 {
